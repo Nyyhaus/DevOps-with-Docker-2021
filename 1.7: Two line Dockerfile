@@ -1,5 +1,11 @@
 nano Dockerfile 
 
+```
+FROM devopsdockeruh/simple-web-service:alpine
+
+CMD server
+```
+
 docker build . -t web-server
 
 Sending build context to Docker daemon  4.096kB
