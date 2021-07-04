@@ -1,6 +1,7 @@
 
-ville@v:~$ docker images
+
+docker images
 REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
-ville@v:~$ docker ps
+docker ps
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-ville@v:~$ 
+
