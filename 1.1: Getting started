@@ -1,0 +1,4 @@
+CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS                      PORTS      NAMES
+8d93d61df524   redis     "docker-entrypoint.s…"   About a minute ago   Up About a minute           6379/tcp   nervous_wilbur
+a37a33fcea52   ubuntu    "/bin/bash"              About a minute ago   Exited (0) 29 seconds ago              jovial_williamson
+30fe04d3ce7e   nginx     "/docker-entrypoint.…"   2 minutes ago        Exited (0) 29 seconds ago              heuristic_swartz
