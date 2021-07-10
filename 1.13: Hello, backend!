@@ -1,0 +1,20 @@
+ROM golang:latest
+
+EXPOSE 8080
+
+WORKDIR /app
+
+COPY . .
+
+RUN go build
+
+RUN go test ./...
+
+ENV REQUEST_ORIGIN=https://example.com
+
+CMD ["./server"]
+```
+
+
+
+docker run -it -p 8080:8080 example-backend
